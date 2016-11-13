@@ -6,12 +6,17 @@
   "env": {
     "HEROKU_APP_NAME": {
       "required": true
-    }
+    },
+    "SALESFORCE_HUB_URL": {
+            "description": "Required to provision orgs for Review apps",
+            "required": true
+        }
+
   },
   "formation": {
   },
   "addons": [
-
+    "salesforce"
   ],
   "buildpacks": [
     {
