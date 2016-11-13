@@ -1,5 +1,6 @@
 {
   "name": "istvan-sfdx-simple",
+  "repository": "https://github.com/istvanszeg/istvan-simple-sfdx",
   "description": "Simple Salesforce Developer Experience Force.com Applicaiton demonstrating Force.com and Heroku Integration",
   "scripts": {
   },
