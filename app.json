@@ -1,0 +1,21 @@
+{
+  "name": "istvan-sfdx-simple",
+  "description": "Simple Salesforce Developer Experience Force.com Applicaiton demonstrating Force.com and Heroku Integration",
+  "scripts": {
+  },
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/salesforce-buildpack"
+    }
+  ]
+}
