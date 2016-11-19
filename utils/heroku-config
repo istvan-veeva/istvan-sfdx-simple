@@ -1,0 +1,3 @@
+stagingName=istvan-sfdx-simple-staging
+prodName=istvan-sfdx-simple-prod
+pipelineName=istvan-sfdx-simple-pipelines
